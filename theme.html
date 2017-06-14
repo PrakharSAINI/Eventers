@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme 1</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body ng-controller="RegisterCtrl" ng-app="myApp">
+    <div class="container">
+        <div id="profile">
+            <div class="row">
+                <nav>
+                    <div class="nav-wrapper">
+                        <form class=" col s7">
+                            <div class="input-field">
+                                <input type="search" id="search">
+                                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#meeting">Story</a></li>
+                            <li><a href="#event">Event Details</a></li>
+                            <li><a href="#people">Key People</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="row">
+                <div id="#home" class=" col s12">
+                    <div class="card horizontal small">
+                        <div class="card-image">
+                            <img src="img/itcrowd.jpg" class="materialboxed">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <h2> John Doe</h2>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 whiteboard">
+                    <h1><img class="heading" src="https://fontmeme.com/permalink/170613/f29e378372dff1f7248dfccd29096882.png"></h1>
+                    <div id="meeting" class="col s12">
+                        <img src="img/download.jpg" class="responsive-img">
+                    </div>
+                    <div id="event" class="col s12">
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img src="img/zeebop.jpg" class="materialboxed">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                <h4>Event Details</h4>
+                                <h5>Zeebop by the sea</h5>
+                                    <p>
+                                        <b>Address: </b>Utorda Beach, Utorda, Salcette, Goa 403707<br>
+                                        6:30 PM 12th Oct 2017
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="people" class="col s6">
+                    <h3 align="center">Groom's Family</h3>
+                       <div class="carousel">
+                            <a class="carousel-item" href="#one!"><img src="http://ids.si.edu/ids/deliveryService?max=200&id=http://npgportraits.si.edu/eMuseumNPG/media/CSC/81m0002c.jpg"></a>
+                            <a class="carousel-item" href="#two!"><img src="http://youngdesigners.nid.edu/images/PHD/191_Nidhin_p.png"></a>
+                            <a class="carousel-item" href="#three!"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXLlw-bOz4aRYBHKimyNj93QKe4wye1tqN6A7p8fF4f0OCwoi7RQ"></a>
+                            <a class="carousel-item" href="#four!"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQewmsw9XRe98sMxjCSKNZ5NoKVYF2NfesfUh7FFgcoFzGQ-JKGzA"></a>
+                            <a class="carousel-item" href="#five!"><img src="https://gl-images.condecdn.net/image/A6vLJJ6OqEE/crop/200/square"></a>
+                      </div>
+                    </div>
+                    <div class="col s6">
+                    <h3 align="center">Bride's Family</h3>
+                       <div class="carousel">
+                            <a class="carousel-item" href="#asone!"><img src="https://qph.ec.quoracdn.net/main-thumb-t-13450-200-gpnnrhpdzbkmjrggodoethczjxjtdhyk.jpeg"></a>
+                            <a class="carousel-item" href="#astwo!"><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/064/0bd/245dc49.jpg"></a>
+                            <a class="carousel-item" href="#asthree!"><img src="https://wi-images.condecdn.net/image/Q84JwbPpG79/crop/200/square"></a>
+                            <a class="carousel-item" href="#asfour!"><img src="https://qph.ec.quoracdn.net/main-thumb-t-380883-200-xDElLd0z94fCxzTl1vPY10nKvt3UuTO7.jpeg"></a>
+                            <a class="carousel-item" href="#asfive!"><img src="http://conservatives4palin.com/wp-content/uploads/2016/03/Angela-Merkel-sad-200x200.png"></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>$('.carousel').carousel({fullWidth: true});</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    min-height:100%;
+    background-color: #333333;
+}
+
+.row {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.whiteboard {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.heading {
+    display: block;
+    margin: auto;
+}
